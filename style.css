@@ -16,6 +16,12 @@ h2{
     background-repeat: no-repeat;
     padding: 30px 60px;
 }
+.top{
+    width: 100vw;
+    height: 90vh;
+    
+    align-items: center;
+}
 .top-section{
     
     display: flex;
@@ -33,15 +39,17 @@ h2{
 .top-section .half img{
     width: 100%;
 }
-.top-section .des a{
+
+
+.top-section .half a{
     color: #fff;
     padding:7px 30px;
     border: none;
     background-image: linear-gradient(to left,rgba(243, 142, 10, 0.931),rgba(255, 196, 0, 0.925));
     border-radius: 5px;
-    
+    margin-top: 10px;
     text-decoration: none;
-   
+    display: inline-block;
 }
 
 .top-section .half .link-btn{
@@ -51,10 +59,15 @@ h2{
     margin: 20px 0;
     font-size: 25px;
 }
-.top-section .half p{
+/* .top-section .half p{
     padding-bottom: 20px;
+} */
+.top-section .main{
+    padding: 0px 20px;
+    width:48%;
 }
-
-
+.top-section .main img{
+    width: 80%;
+}
 
 
