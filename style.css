@@ -32,7 +32,7 @@ h2{
 .top-section .half{
     width: 50%;
 }
-.top-section .half .color{
+.color{
     color: orange;
     padding: 20px 0;
 }
@@ -69,5 +69,55 @@ h2{
 .top-section .main img{
     width: 80%;
 }
+#main-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+    background-position: right;
+    height: 60vh;
+}
+#footer-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    padding: 30px 60px;
+    margin-bottom: 90px;
+}
+#footer-container h2{
+    padding: 20px 0;
+}
+.full-stack{
+    width:46%;
+    padding: 10px 20px 30px 20px;
+   
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+    height: 60vh;
+}
+.baby{
+    width:46%;
+    padding: 10px 20px;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+    height: 60vh;
+}
+.full-stack h2,.baby h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#e77e06ee,#e4ce0ffa);
+    border-image-slice: 6;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(#06c5e7ee,#3818ebfa);
+    border-image-slice: 6;
+}
 
-
+footer{
+    text-align: center;
+}
+footer p{
+    padding: 20px 0;
+}
